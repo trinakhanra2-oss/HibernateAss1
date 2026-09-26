@@ -61,28 +61,28 @@
 
 ### **Project Structure**
 
-HibernateAss1
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── com.code.HibernateAss1
-│   │   │       ├── App.java
-│   │   │       ├── HibernateUtil.java
-│   │   │       └── entity
-│   │   │           ├── Category.java
-│   │   │           ├── OrderDetails.java
-│   │   │           ├── Orders.java
-│   │   │           ├── Product.java
-│   │   │           └── Users.java
-│   │   └── resources
-│   │       └── hibernate.cfg.xml
-│   │
-│   └── test
-│       └── java
-│           └── com.code.HibernateAss1
-│               └── AppTest.java
-│
-└── pom.xml
+####HibernateAss1
+####├── src
+####│   ├── main
+####│   │   ├── java
+####│   │   │   └── com.code.HibernateAss1
+####│   │   │       ├── App.java
+####│   │   │       ├── HibernateUtil.java
+####│   │   │       └── entity
+####│   │   │           ├── Category.java
+####│   │   │           ├── OrderDetails.java
+####│   │   │           ├── Orders.java
+####│   │   │           ├── Product.java
+####│   │   │           └── Users.java
+####│   │   └── resources
+####│   │       └── hibernate.cfg.xml
+####│   │
+####│   └── test
+####│       └── java
+####│           └── com.code.HibernateAss1
+####│               └── AppTest.java
+####│
+####└── pom.xml
 
 
 

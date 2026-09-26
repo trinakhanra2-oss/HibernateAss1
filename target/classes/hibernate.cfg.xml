@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-configuration>
+
+    <session-factory>
+
+        <!-- Database Connection Settings -->
+        <property name="connection.driver_class">
+            com.mysql.cj.jdbc.Driver
+        </property>
+
+        <property name="connection.url">
+            jdbc:mysql://localhost:3307/ecommerce_db
+        </property>
+
+        <property name="connection.username">
+            root
+        </property>
+
+        <property name="connection.password">
+            Trina@56789
+        </property>
+
+        <!-- Connection Pool -->
+        <property name="connection.pool_size">1</property>
+
+        <!-- Automatically update database tables -->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+
+        <!-- Show SQL queries -->
+        <property name="show_sql">true</property>
+
+        <!-- Current session context -->
+        <property name="current_session_context_class">
+            thread
+        </property>
+
+    </session-factory>
+
+</hibernate-configuration>

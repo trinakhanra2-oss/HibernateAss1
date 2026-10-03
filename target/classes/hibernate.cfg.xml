@@ -18,7 +18,7 @@
         </property>
 
         <property name="connection.password">
-            Trina@56789
+            root
         </property>
 
         <!-- Connection Pool -->
